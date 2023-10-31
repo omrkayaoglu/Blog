@@ -1,0 +1,23 @@
+p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+mat-card-header{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+mat-card-actions{
+    justify-content: space-between;
+}
+ngb-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
